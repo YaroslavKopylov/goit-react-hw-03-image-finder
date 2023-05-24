@@ -10,11 +10,11 @@ export class App extends Component {
     searchValue: '',
     page: 1,
     images: [],
-    loading: false,
+    // loading: false,
     largeImage: {},
-    error: null,
-    showModal: false,
-    isActive: false,
+    // error: null,
+    // showModal: false,
+    // isActive: false,
   };
   async componentDidUpdate(_, prevState) {
     if (
