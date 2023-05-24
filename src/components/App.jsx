@@ -65,7 +65,7 @@ export class App extends Component {
     this.setState({ searchValue, page: 1, images: [] });
   };
   render() {
-    const { images, loading, error, showModal, isActive } = this.state;
+    const { images } = this.state;
     return (
       <div>
         <Searchbar onSubmit={this.handleFormSubmit} />
